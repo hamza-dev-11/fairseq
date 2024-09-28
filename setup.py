@@ -179,8 +179,8 @@ def do_setup(package_data):
         install_requires=[
             "cffi",
             "cython",
-            "hydra-core>=1.0.7,<1.1",
-            "omegaconf=2.0.6",
+            "hydra-core>1.0.7",
+            "omegaconf>2.0",
             "numpy>=1.21.3",
             "regex",
             "sacrebleu>=1.4.12",
